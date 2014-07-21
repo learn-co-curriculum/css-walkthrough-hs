@@ -1,7 +1,8 @@
 ---
-	tags: kids, html, css
-	languages: css, html
+  tags: kids, html, css
+  languages: css, html
 ---
+
 
 #The Ultimate CSS Walkthrough
 + Fork and Clone this repository
