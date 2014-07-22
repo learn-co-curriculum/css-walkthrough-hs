@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>CSS Practice</title>
 </head>
 <body>
 	<div id="title-section">
     <h1>The Ultimate CSS Walkthrough</h1>
     <h2>An Introduction to Cascading Style Sheets</h2>
-    <img src="images/css-kid.jpg">
+    <div class="photo">
+      <img src="images/css-kid.jpg" id="kidpicture">
+    </div>
   </div>
   <hr>
   <div id="welcome">
@@ -21,7 +24,7 @@
     <p>CSS stands for Cascading Style Sheets. We use CSS to apply style and formatting to websites. It's a best practice as a programmer to keep <em>content</em> and <em>styling</em> separate. That way we can keep our files simple and also allow for different webpages to have the same styling! Imagine if every time the New York Times had to publish an article they had to re-do the look of the entire newspaper!</p>
   </div>
   <hr>
-  <div class="info-section">
+  <div class="info-section css-list">
     <h3>What Can I change Using CSS?</h3>
     <ul>
       <li>Font type</li>
@@ -39,7 +42,9 @@
   <div class="info-section">
     <h3> Tell me about CSS Syntax... </h3>
     <p> CSS syntax is pretty straightforward. The selector chooses the element whose formatting you want to change. The declaration explains how to change the element</p>
-    <img src="images/selector.gif">
+    <div class="photo">
+      <img src="images/selector.gif">
+    </div>
   </div>
   <hr>
   <div class="info-section">
@@ -53,9 +58,9 @@
   <hr>
   <div class="info-section">
     <h3> What does the "Cascades" in CSS mean? </h3>
-    <p> If we look at the HTML of a page, we can see that elements are embedded within other elements. For example, in this page the h1 header is embedded within the 'body' element of this page, which is embedded in the 'html' element. Imagine a big family tree. Now, back to cascades: When we change the formatting of a specific element, that cange will <em>cascade</em> down to 
-    <hr>
+    <p> If we look at the HTML of a page, we can see that elements are embedded within other elements. For example, in this page the h1 header is embedded within the 'body' element of this page, which is embedded in the 'html' element. Imagine a big family tree. Now, back to cascades: When we change the formatting of a specific element, that change will <em>cascade</em> down to all of th 
   </div>
+    <hr>
   <h3>What are these things we call classes and ids?</h3>
   <p id="about-classes-and-ids">Sometimes we have to get more granular than what the tags in our html can provide us. For example, we only want to convert one of our h3 headings to a different color. If we change the css of h3s, the will all change. So we add classes and/or ids. Classes and ids are 'markers' that we put in our HTML so that we can reference them in our CSS stylesheets. An id can only be used once in a page, but a class can be used multiple times. In our stylesheets, ids are referenced with a '#' and classes are referenced with a '.'.
   </p>
@@ -66,10 +71,11 @@
       <li>Change the color of the h1 header to 'blue'</li>
       <li>Change all h2 headers to 25px, Arial font, color: #800000
 </li>
+      <li>Center h1s and h2s on the page</li>
       <li>Change the background color of the page to #FFFFCC
 </li>
-      <li>Give all the images on the page a green border, using a hex color. Center it on the page.</li>
-      <li>Change the font of the <em>first paragraph</em> to 'Shadows Into Light' from <a href="https://www.google.com/fonts">Google Fonts</a></li>
+      <li>Give all the images on the page a green border, using a hex color. Center them on the page.</li>
+      <li>Change the font of the <em>first paragraph</em>(the div with id="welcome") to 'Shadows Into Light' from <a href="https://www.google.com/fonts">Google Fonts</a></li>
       <li>Put the list of things that css can do inside a div with a class named "css-list" and give this div a red background and white text</li>
       <li>Make the baby meme image have a max-width of 30% of the screen</li>
     </ul>
