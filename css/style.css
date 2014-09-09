@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+h1 {
+	font-size: 40px;
+	color: blue;
+	text-align: center;
+}
+
+h2 {
+	font-size: 25px;
+	font-family: arial;
+	color: #800000;
+	text-align: center;
+}
+
+body {
+	background-color: #FFFFCC;
+}
+
+img {
+	border-style: solid;
+	border-color: #458B00;
+	border-width: 3px;
+}
+
+#kidpicture {
+	text-align: center;
+	max-width: 30%;
+}
+
+.photo {
+	text-align: center;
+}
+
+#welcome {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;
+}
+
+.css-list {
+	background-color: red;
+	color: white;
+}
