@@ -1,7 +1,4 @@
----
-  tags: kids, html, css
-  languages: css, html
----
+
 
 
 #The Ultimate CSS Walkthrough
