@@ -7,4 +7,4 @@
 + Open 'index.html' in your browser.
 + Code along with the instructor!
 
-<a href='https://learn.co/lessons/css-walkthrough-hs' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/css-walkthrough-hs' title='The Ultimate CSS Walkthrough'>The Ultimate CSS Walkthrough</a> on Learn.co and start learning to code for free.</p>
